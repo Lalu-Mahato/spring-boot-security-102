@@ -43,4 +43,18 @@ public class SecurityConfig {
         // UsernamePasswordAuthenticationFilter.class).build();
     }
 
+    // @Bean
+    // UserDetailsService userDetailsService() {
+    // return new UserInfoUserDetailsService();
+    // }
+
+    // @Bean
+    // AuthenticationProvider authenticationProvider() {
+    // DaoAuthenticationProvider authenticationProvider = new
+    // DaoAuthenticationProvider();
+    // authenticationProvider.setPasswordEncoder(passwordEncoder());
+    // authenticationProvider.setUserDetailsService(userDetailsService());
+    // return authenticationProvider();
+    // }
+
 }
